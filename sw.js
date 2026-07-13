@@ -1,6 +1,6 @@
 /* 로또일보 분석조합기 폰버전 — 서비스워커
    전략: 네트워크 우선(항상 최신 코드) → 인터넷 안 될 때만 저장본 사용 */
-const CACHE = 'lottoilbo-m-v7';
+const CACHE = 'lottoilbo-m-v9';
 
 self.addEventListener('install', (e) => { self.skipWaiting(); });
 
